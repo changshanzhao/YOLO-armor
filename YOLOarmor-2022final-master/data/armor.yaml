@@ -1,0 +1,14 @@
+    path: D:/FileRecv/YOLOarmor-2022final-master/Data/2021-RMUC-0417-0916/2021-RMUC-0417-0916/
+    train: images/train    #图片路径
+    val: images/val      #图片路径
+
+    nc: 36                                                            #class种类数：4*9
+    np: 4                                                             #关键点个数
+    colors: 4                                                         #颜色种类数
+    tags: 9                                                           #标签种类数
+    names: ['BG', 'B1', 'B2', 'B3', 'B4', 'B5', 'BO', 'BBs', 'BBb',
+            'RG', 'R1', 'R2', 'R3', 'R4', 'R5', 'RO', 'RBs', 'RBb',
+            'NG', 'N1', 'N2', 'N3', 'N4', 'N5', 'NO', 'NBs', 'NBb',
+            'PG', 'P1', 'P2', 'P3', 'P4', 'P5', 'PO', 'PBs', 'PBb',]  #种类命名
+
+    date: '2023/3/17'                                                 #最后修改日期
